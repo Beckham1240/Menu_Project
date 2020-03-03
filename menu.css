@@ -1,0 +1,14 @@
+body{
+    margin: 4px; 
+    background-color: #4E0C16; 
+    border-color: #C52D37;
+}
+p.auto-style1{
+    height: 112px; 
+    border: thick #C52D37 none;
+    font-family: "Decotura ICG";
+    font-size: xx-small;
+}
+img.auto-style2{
+    vertical-align: top;
+}
