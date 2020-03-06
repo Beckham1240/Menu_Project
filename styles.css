@@ -25,14 +25,16 @@ div.col-1-5{
     list-style: none;
     text-align: center;
     border-right: rgb(236, 228, 228) 4px solid;
+    height: 650px;
 }
 
 div.col-4-5{
-    text-align: center;
+    margin-left: 20%;
 }
 
 h1{
     margin: 0;
+    text-align: center;
 }
 
 a{
@@ -47,6 +49,20 @@ a{
     font-size: 1.2em;
 }
 
+p{
+    text-align: center;
+}
+
+th{
+    text-align: left;
+    width: 33.3%;
+    float: left;
+}
+
+li{
+    list-style: none;
+}
+
 a:hover{
     text-decoration: underline;
     font-size: 1.4em;
@@ -56,6 +72,5 @@ div.row::after{
     display: table;
     content: "";
 }
-div.col-1-5{width: 20%;}
-div.col-4-5{width: 95%;}
-div.col-1-2{width: 50%;}
+body div.col-1-5{width: 20%;}
+body div.col-4-5{width: 80%;}
