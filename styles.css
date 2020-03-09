@@ -1,7 +1,7 @@
 html{
     height: auto;
     width: 100%;
-    background: url(mainScreens/red29.jpg);
+    background: url(china.jpeg);
 }
 
 body{
@@ -10,7 +10,7 @@ body{
     border: 3px solid black;
     margin-left: auto;
     margin-right: auto;
-    background-color: #ad450da8;
+    background: url("orange29.jpg");
 }
 
 header{
@@ -35,6 +35,7 @@ div.col-4-5{
 h1{
     margin: 0;
     text-align: center;
+    padding-top: 3%;
 }
 
 a{
@@ -53,10 +54,22 @@ p{
     text-align: center;
 }
 
-th{
+table{
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+td{
     text-align: left;
-    width: 33.3%;
+    width: 40%;
     float: left;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+tr{
+    width: 100%;
+    
 }
 
 li{
@@ -73,4 +86,4 @@ div.row::after{
     content: "";
 }
 body div.col-1-5{width: 20%;}
-body div.col-4-5{width: 80%;}
+body div.col-3-5{width: 60%;}
