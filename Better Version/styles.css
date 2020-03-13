@@ -1,0 +1,134 @@
+@font-face{
+    font-family: Asian;
+    src: url(yozakura/YOZAKURA-Regular.woff2) format('woff2'),
+        url(yozakura/YOZAKURA-Regular.woff) format('woff'),
+        url(yozakura/YOZAKURA-Regular.ttf) format('truetype');
+}
+
+html{
+    height: auto;
+    width: 100%;
+    background: url("pictures/china.jpeg")
+}
+
+body{
+    width: 90%;
+    height: auto;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("orange29.jpg");
+    font-family: Asian;
+    color: rgb(78, 13, 13);
+}
+
+header{
+    height: 100px;
+    background-color: rgb(78, 13, 13);
+    border-bottom: rgb(236, 228, 228) 4px solid;
+}
+
+div.col-1-5{
+    background-color: #daa520de;
+    float: left;
+    list-style: none;
+    text-align: center;
+    border-right: rgb(236, 228, 228) 4px solid;
+    height: 700px;
+}
+
+div.col-4-5{
+    float: left;
+    overflow: auto;
+    height: 700px;
+}
+
+section{
+    background-color: #daa5209c;
+    border: 2px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    font-size: 3.9em;
+}
+
+h1#top3{
+    padding-top: 2%;
+}
+
+a{
+    display: block;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    text-decoration: none;
+    color: rgb(78, 13, 13);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+}
+
+p{
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 0px;
+}
+
+table{
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    background-color: #daa5209c;
+}
+
+td{
+    text-align: left;
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+    font-size: 1.85em;
+    padding-left: 9%;
+}
+
+td#sub{
+    font-size: 1em;
+}
+
+tr{
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+div.col-4-5 img{
+    margin-left: 7%;
+}
+div.col-1-5 img{
+    padding-left: 20px;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 1.7em;
+}
+div.row::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+body div.col-1-5{width: 20%;}
+body div.col-4-5{width: 79%;}
+
+footer{
+    background-color: rgb(78, 13, 13);
+    width: 100%;
+    height: 50px;
+}
